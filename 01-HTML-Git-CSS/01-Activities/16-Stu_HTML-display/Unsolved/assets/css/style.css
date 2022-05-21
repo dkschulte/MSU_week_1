@@ -17,10 +17,12 @@ li {
   /* TODO: Add your code here */
   list-style-type: none;
   font-size: 40px;
+  display: inline;
 }
 
 /* Boxes */
 img {
+  display: block;
   /* TODO: Add your code here */
   margin: 0 auto;
 }
@@ -37,8 +39,4 @@ img {
   background-color: #999900;
 }
 
-/* Box 3 */
-#image-3 {
-  /* TODO: Add your code here */
-  display: none;
-}
+
