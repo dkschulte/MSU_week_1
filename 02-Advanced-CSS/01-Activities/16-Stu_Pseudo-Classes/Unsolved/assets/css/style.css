@@ -88,6 +88,10 @@ footer {
 }
 
 /* TODO: Add styles to display and hide the resource links */
+h3 ul {
+  color: black;
+  
+}
 
 @media screen and (max-width: 768px) {
   header, main {

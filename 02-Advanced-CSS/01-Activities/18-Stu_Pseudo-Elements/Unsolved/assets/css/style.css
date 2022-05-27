@@ -60,6 +60,11 @@ article p {
 }
 
 /* TODO: Style the term/phrase - underline, black text, grab cursor */
+span:hover span::after{
+  content: 'this a rectangle';
+  border: black;
+
+}
 
 /* TODO: Position tooltip above the term/phrase, same color as header and nav links, no border-radius, smaller font size */
 
