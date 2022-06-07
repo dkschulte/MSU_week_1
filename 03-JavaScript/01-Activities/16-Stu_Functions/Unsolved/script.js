@@ -21,4 +21,15 @@ isEqual(10, 10);
 
 // TODO: Call the isEqualTakeTwo function so that it logs "They are not equal"
 
+const isEqualTakeTwo = ( x , y ) => {
+  if (x === y) {
+    console.log('They are equal in type and value');
+  } else if (x == y) {
+    console.log('They are equal in value');
+  } else {
+    console.log('They are not equal');
+  }
+  return; 
+}
+
 
