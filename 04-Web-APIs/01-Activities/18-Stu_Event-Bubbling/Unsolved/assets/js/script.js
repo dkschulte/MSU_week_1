@@ -1,6 +1,8 @@
 // TODO: Which element is the following line of code selecting?
+//It is selecting the part of the body thaat houses the img box
 var carousel = document.querySelector(".carouselbox");
 // TODO: Which element is the following line of code selecting?
+//it is selecting the next and prev buttons
 var next = carousel.querySelector(".next");
 var prev = carousel.querySelector(".prev");
 var index = 0;
@@ -27,6 +29,7 @@ function navigate(direction) {
 }
 
 // TODO: Describe the functionality of the following event listener.
+//when clicked it will go through the img in the var
 carousel.addEventListener("click", function() {
   window.location.href = images[index];
 });

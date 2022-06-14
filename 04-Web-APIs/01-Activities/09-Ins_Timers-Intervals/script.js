@@ -19,7 +19,7 @@ function setTime() {
       sendMessage();
     }
 
-  }, 1000);
+  }, 1000); //time is in milliseconds
 }
 
 // Function to create and append colorsplosion image
