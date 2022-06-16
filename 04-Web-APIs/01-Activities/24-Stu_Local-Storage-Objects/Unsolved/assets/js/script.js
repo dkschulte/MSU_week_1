@@ -8,6 +8,17 @@ signUpButton.addEventListener("click", function(event) {
   event.preventDefault();
   
   // TODO: Create user object from submissio
+  var resgister = { 
+    firstName: firstNameInput.value,
+    lastName: lastNameInput.value,
+    email: emailInput.value,
+    password: passwordInput.value.trim()
+
+
+  }
+  localStorage.setItem("resgister",JSON.stringify(resgister));
+
+
 
   // TODO: Set new submission to local storage 
   
