@@ -3,7 +3,7 @@ var fetchButton = document.getElementById('fetch-button');
 
 function getApi() {
   // replace `octocat` with anyone else's GitHub username
-  var requestUrl = 'https://api.github.com/users/octocat/repos';
+  var requestUrl = '';
 
   fetch(requestUrl)
     .then(function (response) {
