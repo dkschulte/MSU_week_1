@@ -24,8 +24,8 @@ describe("DayCare", () => {
     it("should not add a child over the 'ageLimit'", () => {
       const child = new Child("Tammy", 8);
       const dayCare = new DayCare();
-      const mock = jest.spyOn();
-      mock.mockImplementation();
+      const mock = jest.spyOn(console, "log");
+      mock.mockImplementation( () => {} );
 
       dayCare.addChild(child);
 
@@ -39,7 +39,7 @@ describe("DayCare", () => {
     it("should not add a child if already at capacity", () => {
       const dayCare = new DayCare();
       const child = new Child("Alice", 4);
-      const mock = jest.spyOn();
+      const mock = jest.spyOn(console, "log");
       mock.mockImplementation();
       dayCare.children = [
         new Child("Tammy", 1),
