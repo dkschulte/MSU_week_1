@@ -2,7 +2,6 @@ const inquirer = require("inquirer");
 const chalk = require("chalk");
 const Word = require("./Word");
 const words = require("./words");
-const Letter = require("./Letter");
 
 // The Game constructor is responsible for keeping score and controlling the flow of the overall game
 

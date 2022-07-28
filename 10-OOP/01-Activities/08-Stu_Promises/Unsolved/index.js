@@ -15,13 +15,6 @@ const studentDistracted = userInput !== 'coding';
 
 // TODO: Refactor the following to use promises
 const practiceCoding = (cb, errCb) => {
-  return new Promise( (resovle,reject)=>{
-    if(studentDistracted){
-      reject(errCb({
-        issue: 'Distracted',
-        message: 'Coding stopped',
-      }))}
-  });
   if (studentDistracted) {
     errCb({
       issue: 'Distracted',
