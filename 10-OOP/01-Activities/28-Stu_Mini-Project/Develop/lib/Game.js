@@ -1,7 +1,7 @@
 const inquirer = require("inquirer");
-const chalk = require("chalk");
-const Word = require("./Word");
-const words = require("./words");
+const chalk = require("chalk.js");
+const Word = require("./Word.js");
+const words = require("./words.js");
 
 // The Game constructor is responsible for keeping score and controlling the flow of the overall game
 
